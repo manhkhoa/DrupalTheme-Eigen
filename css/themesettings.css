@@ -1,0 +1,31 @@
+/* Themeski Background settings */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/themesettings\.scss}line{font-family:\000032}}
+#edit-bgs .form-item-bgs-type {
+  clear: none;
+  float: left;
+  margin: 0 40px 55px 15px;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/themesettings\.scss}line{font-family:\000038}}
+#edit-bgs .form-item-bgs-type .option {
+  position: absolute;
+  left: -7px;
+  top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/themesettings\.scss}line{font-family:\0000312}}
+#edit-bgs .form-item-bgs-type .option img {
+  width: 25px;
+  height: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/themesettings\.scss}line{font-family:\0000317}}
+#edit-your-background .form-item-bgs-img-type {
+  float: left;
+  margin: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/themesettings\.scss}line{font-family:\0000320}}
+#edit-your-background .form-item-bgs-img-type img {
+  width: 150px;
+  height: 100px;
+}

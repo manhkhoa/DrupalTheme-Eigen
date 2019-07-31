@@ -1,0 +1,230 @@
+/**
+ * @file
+ * Block Styling
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\000039}}
+.block {
+  /* Block wrapper */
+  margin-bottom: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000312}}
+.block.first {
+  /* The first block in the region */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000315}}
+.block.last {
+  /* The last block in the region */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000318}}
+.block.odd {
+  /* Zebra striping for each block in the region */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000321}}
+.block.even {
+  /* Zebra striping for each block in the region */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000324}}
+.block h2.block-title {
+  /* Block title */
+  font-family: Museo, sans-serif;
+  color: #313131;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000328}}
+.block .block-inner {
+  padding: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000334}}
+#block-aggregator-category-1 {
+  /* Block for the latest news items in the first category */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000337}}
+#block-aggregator-feed-1 {
+  /* Block for the latest news items in the first feed */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000340}}
+#block-block-1 {
+  /* First block created with "Add block" link */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000343}}
+#block-blog-recent {
+  /* "Recent blog posts" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000346}}
+#block-book-navigation {
+  /* "Book navigation" block for the current book's table of contents */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000349}}
+#block-comment-recent {
+  /* "Recent comments" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000352}}
+#block-forum-active {
+  /* "Active forum topics" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000355}}
+#block-forum-new {
+  /* "New forum topics" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000358}}
+#block-locale-language {
+  /* Language switcher block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000361}}
+#block-menu-menu-NAME {
+  /* Custom menu block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000364}}
+#block-node-recent {
+  /* "Recent content" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000367}}
+#block-node-syndicate {
+  /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000370}}
+#block-poll-recent {
+  /* "Most recent poll" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000373}}
+#block-profile-author-information {
+  /* "Author information" block for the profile of the page's author */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000376}}
+#block-search-form {
+  /* "Search form" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000379}}
+#block-shortcut-shortcuts {
+  /* "Shortcuts" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000382}}
+#block-statistics-popular {
+  /* "Popular content" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000385}}
+#block-system-main-menu {
+  /* "Main menu" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000388}}
+#block-system-management {
+  /* "Management" block for Drupal management menu */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000391}}
+#block-system-navigation {
+  /* "Navigation" block for Drupal navigation menu */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000394}}
+#block-system-user-menu {
+  /* "User menu" block for Drupal user menu */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\0000397}}
+#block-system-help {
+  /* "System help" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003100}}
+#block-system-main {
+  /* "Main page content" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003103}}
+#block-system-powered-by {
+  /* "Powered by Drupal" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003106}}
+#block-user-login {
+  /* "User login form" block */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003109}}
+#block-user-new {
+  /* "Who's new" block for a list of the newest users */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003112}}
+#block-user-online {
+  /* "Who's online" block for a list of the online users */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003115}}
+.sidebar .block {
+  /* Block in sidebar */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003117}}
+.sidebar .block.first {
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003120}}
+.sidebar .block .block-inner {
+  border-bottom: 1px dashed #404040;
+  padding: 0 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003123}}
+.sidebar .block .block-inner .block-title {
+  background: url("../images/border-bottom-image.png") repeat-x scroll left bottom transparent;
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003129}}
+.sidebar #block-search-form {
+  width: 100%;
+}
+
+/* Block search form */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003136}}
+#block-search-form {
+  text-align: center;
+  width: 300px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003140}}
+#block-search-form .form-text {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  border-radius: 0 0 0 0;
+  box-shadow: none;
+  font-size: 11px;
+  color: #b4b4b4;
+  font-weight: 700;
+  margin: 0;
+  max-width: 200px;
+  padding: 4px 27px;
+  width: 69%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003153}}
+#block-search-form .form-submit {
+  background: url("../images/search.png") no-repeat scroll 0 0 transparent;
+  border: medium none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50px;
+  text-indent: -999em;
+  width: 29px;
+  height: 29px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/blocks\.scss}line{font-family:\00003165}}
+#block-search-form:hover .form-submit {
+  background: url("../images/search-hover.png") no-repeat scroll 0 0 transparent;
+}

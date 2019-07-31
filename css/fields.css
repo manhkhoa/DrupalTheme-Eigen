@@ -1,0 +1,48 @@
+/**
+ * @file
+ * Field Styling
+ *
+ * The Fences module allows site builders to pick the semeantic HTML5 element
+ * for each field while editing the field's settings. There's no way a theme
+ * can ever know which element to use for the fields on your site, so Zen
+ * just uses lets Drupal core or Fences decide. Since you DO NOT want 3 wrapping
+ * divs around every field (do you?), we highly recommend Fences.
+ *
+ * http://drupal.org/project/fences
+ */
+/*
+ * Field wrappers when the Fences module is enabled.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/fields\.scss}line{font-family:\0000321}}
+.field-label {
+  /* The optional label for a field. */
+}
+
+/*
+ * If you don't use the Fences module, that's fine. Really. I think. Just use
+ * these selectors instead:
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/fields\.scss}line{font-family:\0000329}}
+.field {
+  /* Wrapper for any field. */
+}
+
+/*
+ * Field types (Core)
+ */
+/* Text fields. */
+/* Imagefields */
+/* Filefield field. */
+/* Number fields. */
+/* Text fields. */
+/*
+ * Field types (Contrib)
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/fields\.scss}line{font-family:\0000382}}
+.field-type-datetime {
+  /* Always use "datetime" when creating new CCK date fields. "date" and "datestamp" are legacy types. */
+}
+
+/*
+ * Named fields
+ */

@@ -1,0 +1,24 @@
+/* Themeski Background settings */
+#edit-bgs .form-item-bgs-type {
+  clear: none;
+  float: left;
+  margin: 0 40px 55px 15px;
+  position: relative;
+}
+#edit-bgs .form-item-bgs-type .option { 
+  position: absolute;
+  left: -7px;
+  top: 20px;
+  img {
+    width: 25px;
+    height: 25px;
+  }
+}
+#edit-your-background .form-item-bgs-img-type {
+  float: left;
+  margin: 10px;
+  img {
+    width: 150px;
+    height: 100px;
+  }
+}

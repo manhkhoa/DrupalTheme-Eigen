@@ -1,0 +1,121 @@
+/**
+ * @file
+ * Comment Styling
+ */
+
+@import "base";
+
+
+.comment-wrapper { /* Wrapper for the list of comments and its title */
+  margin: 1.5em 0;
+
+  h2.title { /* Heading for the list of comments */
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Georgia, sans-serif;
+  }
+
+  .comment-form{
+
+  }
+
+  h2.comment-form { /* Heading for the comment form */
+    border-top: 1px dashed #404040;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+}
+
+.comment { /* Wrapper for a single comment */
+
+  &.comment-preview { /* Preview of the comment before submitting new or updated comment */
+    background-color: #ffffea; /* Drupal core will use a #ffffea background. See #1110842 */
+  }
+
+  &.new { /* A new comment since the user last viewed the page. */
+	background-color: #E6FCB6;
+    padding: 1px 6px 2px;
+  }
+
+  &.first { /* The first comment in the list of comments */
+  }
+
+  &.last { /* The last comment in the list of comments */
+  }
+
+  &.odd { /* An odd-numbered comment in the list of comments */
+  }
+
+  &.even { /* An even-numbered comment in the list of comments */
+  }
+
+  &.comment-by-anonymous { /* A comment created by an anonymous user */
+  }
+
+  &.comment-by-node-author { /* A comment created by the node's author */
+  }
+
+  &.comment-by-viewer { /* A comment created by the current user */
+  }
+
+  h3.comment-title { /* Comment title */
+    font-family: Georgia, sans-serif;
+    font-size: 14px;
+    
+  }
+
+  .new { /* "New" marker for comments that are new for the current user */
+    color: #c00;
+  }
+
+  .user-picture { /* The picture of the comment author */
+	img {
+		/* picture */
+	  width: 65px;
+    height: 58px;
+	}
+  }
+  .comment-left{
+    float: left;
+  }
+  .comment-right{
+    margin-left: 100px;
+    .content .field-name-comment-body p{
+      margin: 0;
+      padding: 5px 0;
+      font-family: "Gentium Basic", sans-serif;
+
+    }
+  }
+
+  .submitted { /* The "posted by" information */
+  }
+
+  .permalink { /* Comment's permalink wrapper */
+    text-transform: capitalize;
+   
+  }
+
+  .user-signature { /* The user's signature */
+  }
+
+  ul.links { /* Comment links. See also the ul.links declaration in the pages.css. */
+    margin: 0;
+    li a {
+      text-transform: capitalize;
+  	}
+  }
+}
+
+.indented { /* Nested comments are indented */
+  margin-left: 100px; /* Drupal core uses a 25px left margin */
+}
+
+.comment-unpublished { /* Unpublished comments */
+  /* background-color: #fff4f4; */ /* Drupal core uses a #fff4f4 background */
+
+  p.unpublished { /* The word "Unpublished" displayed underneath the content. */
+    @include unpublished-div;
+  }
+}
+

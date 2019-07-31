@@ -1,0 +1,57 @@
+/* first child menu */
+#menu-bar .menu ul {
+  background-color: #f9f9f9;
+  border: 1px solid #d2d2d2;
+  position: absolute;
+  left: -999em;
+  z-index: 99;
+  border-top: none;
+  width: 200px;  
+}
+#navigation ul.menu li {
+  position: relative;
+}
+#menu-bar .menu ul li {
+  border-bottom: 1px dotted #aaa;
+  width: 100%;
+}
+#menu-bar .menu ul li.last {
+  border-bottom: none;
+}
+#menu-bar .menu ul li:hover,
+#menu-bar .menu ul li.sfHover{}
+#menu-bar .menu ul li a,
+#menu-bar .menu li.sfHover ul li a, 
+#menu-bar .menu ul li a.active {
+  color: #888;
+  font-size: .9em;
+  padding-left: 0.923em;
+  text-transform: none;
+}
+#menu-bar .menu li:hover > ul{
+  left: -1px;
+}
+
+#menu-bar .menu li ul li a:hover {
+  color: #ea7b56;
+}
+
+#menu-bar .menu ul li.first {}
+#menu-bar .menu ul li.last {
+  border-bottom: none;
+}
+/* grand child menu */
+#menu-bar .menu ul li ul {
+  border-top: 1px solid #c3c3c3;
+}
+#menu-bar ul.menu li li:hover ul{
+  left: 200px; /* match ul width */
+  top: 0px;
+}
+#menu-bar ul.menu li li:hover li ul {
+  top: -999em;
+}
+#menu-bar ul.menu li li li:hover ul {
+  left: 200px; /* match ul width */
+  top: 0px;
+}

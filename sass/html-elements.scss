@@ -1,0 +1,207 @@
+@import "base";
+
+body{
+  line-height: 1.5em;
+  font-family: Georgia, sans-serif;
+  font-size: 14px;
+  color: #555555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5em;
+  line-height: 1.3em;
+  font-family: Museo;
+  color: #313131;
+
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+h2{
+  font-size: 2em;
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+h4{
+  font-size: 1.167em;
+}
+
+h5,
+h6{
+  font-size:1em;
+}
+h1 > a,
+h2 > a,
+h3 > a,
+h4 > a{
+  color: #313131;
+}
+
+h1 > a:hover,
+h2 > a:hover,
+h3 > a:hover,
+h4 > a:hover {
+  color: #d3550e;
+  text-decoration: none;
+} 
+
+h1.title, /* The title of the page */
+h2.node-title, /* Title of a piece of content when it is given in a list of content */
+h2.block-title, /* Block title */
+h2.title, /* Comment section heading */
+h2.comment-form, /* Comment form heading */
+h3.title { /* Comment title */
+  margin-top: 0;
+}
+
+hr{
+  height: 0px;
+}
+
+p,
+pre {}
+
+p {
+  margin: 0 0 1.5em;
+  padding: 0;
+}
+
+a {
+    color: #d3550e;
+    text-decoration: none;
+	&:hover{
+	  text-decoration: underline;
+	}
+}
+
+/* openid link */
+#user-login-form li.openid-link a, #user-login li.openid-link a{
+  background: url("../images/black-item-list.png") 0 3px no-repeat;
+} 
+
+
+/*action-links*/
+
+ul{
+  &.action-links {
+    margin-bottom: 0;
+    li{
+      list-style: none;
+      a{
+      padding: 4px 0 4px 12px;
+      position: relative;
+  	&:after,
+  	&:before {
+  	  border-style: solid;
+        content: "";
+        height: 0;
+        position: absolute;
+        width: 0;
+  	}
+  	&:after  {
+  	  border-width: 3px 0 0 11px;
+        left: -4px;
+        top: 10px;
+  	}
+  	&:before{
+  	  border-width: 11px 0 0 3px;
+        left: 0;
+        top: 6px;
+  	}
+    }
+  }
+  }
+}
+
+
+menu,
+ol,
+ul,
+.item-list ul {
+  padding: 0 0 0 20px;
+}
+
+.item-list ul li {}
+
+dl{
+  padding: 0;
+}
+
+dd {}
+
+ul, ol, .item-list ul, .item-list ol {
+  ul, ol {}
+}
+
+menu,
+ol,
+ul,
+.item-list ul /* Drupal override */ {}
+
+dd {
+  margin: 0 0 1.5em 40px;
+}
+
+dt{
+  font-weight: 700;
+}
+
+a img{
+  &:hover{
+    background: #d3550e;
+  }
+}
+
+img {
+  max-width: 100%;
+  background: #ffffff;
+  padding: 5px;
+  border: 1px solid #e3e3e3;
+}
+
+fieldset {
+  color: #3c3a3a;
+}
+
+button,
+input,
+select,
+textarea {}
+
+button,
+input {}
+
+textarea {}
+
+strong,
+dfn,
+caption,
+th {
+  font-weight: 700;
+}
+
+/* blockquote */
+blockquote {
+  padding-left: 35px;
+  position: relative;
+  font-style: italic;
+  font-size: 18px;
+  color: #404040;
+  line-height: 1.1;
+  margin: 10px 0;
+
+  &:after {
+    background: url("../images/blockquote-icon.png")  no-repeat scroll top left transparent;
+    content: "";
+    height: 19px;
+    position: absolute;
+    top: -6px;
+	  left: 0;
+    width: 25px;
+  }
+}

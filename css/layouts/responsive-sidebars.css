@@ -1,0 +1,560 @@
+/**
+ * @file
+ * Positioning for responsive layout .
+ *
+ * Define CSS classes to create a table-free, 3-column, 2-column, or single
+ * column layout depending on whether blocks are enabled in the left or right
+ * columns.
+ *
+ * This layout uses the Zen Grids plugin for Compass: http://zengrids.com
+ */
+/*
+ * Center the page.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000338}}
+#page,
+.region-bottom {
+  /* For screen sizes larger than 1200px, prevent excessively long lines of text
+     by setting a max-width. */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+/*
+ * Apply the shared properties of grid items in a single, efficient ruleset.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000353}}
+#content,
+.region-sidebar-first,
+.region-sidebar-second {
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/*
+ * Containers for grid items and flow items.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000352}}
+#main:before, #main:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000356}}
+#main:after {
+  clear: both;
+}
+
+@media all and (min-width: 960px) {
+  /*
+   * Use 5 grid columns for larger screens.
+   */
+  /*
+   * The layout Sidebar - Content - Sidebar when there is only one sidebar, the left one.
+   */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000377}}
+  .three-col-grail.sidebar-first #content {
+    /* Span 4 columns, starting in 2nd column from left. */
+    float: left;
+    width: 66.66667%;
+    margin-left: 33.33333%;
+    margin-right: -100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000381}}
+  .three-col-grail.sidebar-first .region-sidebar-first {
+    /* Span 1 column, starting in 1st column from left. */
+    float: left;
+    width: 33.33333%;
+    margin-left: 0%;
+    margin-right: -33.33333%;
+  }
+
+  /*
+   * The layout Sidebar - Content - Sidebar when there is only one sidebar, the right one.
+   */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000391}}
+  .three-col-grail.sidebar-second #content {
+    /* Span 4 columns, starting in 1st column from left. */
+    float: left;
+    width: 66.66667%;
+    margin-left: 0%;
+    margin-right: -66.66667%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000395}}
+  .three-col-grail.sidebar-second .region-sidebar-second {
+    /* Span 1 column, starting in 5th column from left. */
+    float: left;
+    width: 33.33333%;
+    margin-left: 66.66667%;
+    margin-right: -100%;
+  }
+
+  /*
+   * The layout Sidebar - Content - Sidebar when there are two sidebars.
+   */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003105}}
+  .three-col-grail.two-sidebars #content {
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: -75%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003109}}
+  .three-col-grail.two-sidebars .region-sidebar-first {
+    float: left;
+    width: 25%;
+    margin-left: 0%;
+    margin-right: -25%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003113}}
+  .three-col-grail.two-sidebars .region-sidebar-second {
+    float: left;
+    width: 25%;
+    margin-left: 75%;
+    margin-right: -100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003118}}
+  .region-four-first {
+    float: left;
+    width: 25%;
+    margin-left: 0%;
+    margin-right: -25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003121}}
+  .region-four-second {
+    float: left;
+    width: 25%;
+    margin-left: 25%;
+    margin-right: -50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003124}}
+  .region-four-third {
+    float: left;
+    width: 25%;
+    margin-left: 50%;
+    margin-right: -75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003127}}
+  .region-four-fourth {
+    float: left;
+    width: 25%;
+    margin-left: 75%;
+    margin-right: -100%;
+  }
+}
+/* Portrait smartphone */
+@media all and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003135}}
+  #main {
+    padding-top: 3em;
+    /* Move all the children of #main down to make room. */
+    position: relative;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003142}}
+  input.form-text {
+    width: 60%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003146}}
+  #comments .indented {
+    margin: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003152}}
+  .sidebar-first #content {
+    /* Span 1 columns, starting in 2nd column from left. */
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003156}}
+  .sidebar-first .region-sidebar-first {
+    /* Span 1 column, starting in 1st column from left. */
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    clear: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003163}}
+  .sidebar-second #content {
+    /* Span 1 columns, starting in 1st column from left. */
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003167}}
+  .sidebar-second .region-sidebar-second {
+    /* Span 1 column, starting in 5th column from left. */
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    clear: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003174}}
+  .two-sidebars #content {
+    /* Span 1 columns, starting in 2nd column from left. */
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003178}}
+  .two-sidebars .region-sidebar-first {
+    /* Span 1 column, starting in 1st column from left. */
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    clear: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003183}}
+  .two-sidebars .region-sidebar-second {
+    /* Span 1 column, starting in 5th column from left. */
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    clear: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003192}}
+  .region-four-first,
+  .region-four-second,
+  .region-four-third,
+  .region-four-fourth {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    clear: left;
+  }
+
+  /*menu-bar*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003197}}
+  #main-menu {
+    padding: 3px 0;
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003200}}
+  #main-menu .gpmenu {
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003204}}
+  #main-menu .gpmenu .menu li a {
+    margin-right: 0px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003206}}
+  #main-menu .gpmenu .menu li a:hover {
+    border-bottom: none;
+    color: #d63b1c;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003215}}
+  #navigation {
+    padding: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003218}}
+  #menu-bar {
+    position: relative;
+    width: auto;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003223}}
+  #menu-bar ul.menu {
+    background: #222222;
+    border-top: 1px solid #393939;
+    clear: both;
+    display: none;
+    padding: 0;
+    position: relative;
+    top: -3px;
+    width: auto;
+    z-index: 99;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003234}}
+  #menu-bar ul.menu li {
+    border-bottom: 1px solid #393939;
+    margin: 0 10px;
+    padding: 5px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003238}}
+  #menu-bar ul.menu li a {
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003244}}
+  #menu-bar ul.menu li:hover ul, #menu-bar ul.menu li.sf-parent ul {
+    left: -999em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003250}}
+  #menu-icon {
+    background: url("../../images/menu-icon.png") no-repeat 5px 10px #3e3e3e;
+    border: 4px solid #222222;
+    box-shadow: inset 1px 1px 0px 0px #525252;
+    color: #E4EAEE;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    height: 23px;
+    padding: 10px 35px 3px 33px;
+    text-align: left;
+    width: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003262}}
+  #menu-icon:after {
+    background: url("../../images/menu-icon-after.png") no-repeat scroll 15px center #222222;
+    content: "";
+    display: block;
+    height: 40px;
+    left: 99%;
+    position: relative;
+    top: -32px;
+    width: 42px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003273}}
+  #menu-icon:hover:after {
+    background: url("../../images/menu-icon-hover.png") no-repeat scroll 15px center #222222;
+    content: "";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003283}}
+  #navigation ul.links li,
+  #navigation ul.menu li {
+    float: none;
+  }
+}
+@media all and (min-width: 481px) and (max-width: 768px) {
+  /*
+   * Use 4 grid columns for smaller screens.
+   */
+  /*
+   * The layout when there is only one sidebar, the left one.
+   */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003303}}
+  .sidebar-first #content {
+    /* Span 4 columns, starting in 2nd column from left. */
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003307}}
+  .sidebar-first .region-sidebar-first {
+    /* Span 1 column, starting in 1st column from left. */
+    float: left;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: -50%;
+    clear: left;
+  }
+
+  /*
+   * The layout when there is only one sidebar, the right one.
+   */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003318}}
+  .sidebar-second #content {
+    /* Span 4 columns, starting in 1st column from left. */
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003322}}
+  .sidebar-second .region-sidebar-second {
+    /* Span 1 column, starting in 3rd column from left. */
+    float: left;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: -50%;
+    clear: left;
+  }
+
+  /*
+   * The layout when there are two sidebars.
+   */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003333}}
+  .two-sidebars #content {
+    /* Span 4 columns, starting in 2nd column from left. */
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003337}}
+  .two-sidebars .region-sidebar-first {
+    /* Span 1 column, starting in 1st column from left. */
+    float: left;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: -50%;
+    clear: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003342}}
+  .two-sidebars .region-sidebar-second {
+    /* Start a new row and span all 3 columns. */
+    float: left;
+    width: 50%;
+    margin-left: 50%;
+    margin-right: -100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003346}}
+  .footer-panel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003349}}
+  .region-four-first {
+    float: left;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: -50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003352}}
+  .region-four-second {
+    float: left;
+    width: 50%;
+    margin-left: 50%;
+    margin-right: -100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003355}}
+  .region-four-third {
+    clear: left;
+    float: left;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: -50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003359}}
+  .region-four-fourth {
+    float: left;
+    width: 50%;
+    margin-left: 50%;
+    margin-right: -100%;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 1024px) {
+  /*
+   * Use 4 grid columns for smaller screens.
+   */
+  /*
+   * The layout when there is only one sidebar, the left one.
+   */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003375}}
+  .sidebar-first #content {
+    /* Span 4 columns, starting in 2nd column from left. */
+    float: left;
+    width: 75%;
+    margin-left: 25%;
+    margin-right: -100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003379}}
+  .sidebar-first .region-sidebar-first {
+    /* Span 1 column, starting in 1st column from left. */
+    float: left;
+    width: 25%;
+    margin-left: 0%;
+    margin-right: -25%;
+  }
+
+  /*
+  * The layout when there is only one sidebar, the right one.
+  */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003389}}
+  .sidebar-second #content {
+    /* Span 4 columns, starting in 1st column from left. */
+    float: left;
+    width: 75%;
+    margin-left: 0%;
+    margin-right: -75%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003393}}
+  .sidebar-second .region-sidebar-second {
+    /* Span 1 column, starting in 3rd column from left. */
+    float: left;
+    width: 25%;
+    margin-left: 75%;
+    margin-right: -100%;
+  }
+
+  /*
+   * The layout when there are two sidebars.
+   */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003403}}
+  .two-sidebars #content {
+    /* Span 4 columns, starting in 2nd column from left. */
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: -75%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003407}}
+  .two-sidebars .region-sidebar-first {
+    /* Span 4 column, starting in 1st column from left. */
+    float: left;
+    width: 25%;
+    margin-left: 0%;
+    margin-right: -25%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003411}}
+  .two-sidebars .region-sidebar-second {
+    /* Start a new row and span all 4 columns. */
+    float: left;
+    width: 25%;
+    margin-left: 75%;
+    margin-right: -100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003416}}
+  .region-four-first {
+    float: left;
+    width: 25%;
+    margin-left: 0%;
+    margin-right: -25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003419}}
+  .region-four-second {
+    float: left;
+    width: 25%;
+    margin-left: 25%;
+    margin-right: -50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003422}}
+  .region-four-third {
+    float: left;
+    width: 25%;
+    margin-left: 50%;
+    margin-right: -75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003425}}
+  .region-four-fourth {
+    float: left;
+    width: 25%;
+    margin-left: 75%;
+    margin-right: -100%;
+  }
+}

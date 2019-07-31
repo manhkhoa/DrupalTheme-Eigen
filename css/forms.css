@@ -1,0 +1,289 @@
+/**
+ * @file
+ * Form Styling
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\000039}}
+input, select, textarea {
+  background: #f7f7f7;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000314}}
+input.form-text, select.form-text, textarea.form-text {
+  box-shadow: inset 1px 1px 1px 1px #ececec;
+  padding: 5px;
+  height: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000319}}
+input.form-radio, input.form-checkbox, select.form-radio, select.form-checkbox, textarea.form-radio, textarea.form-checkbox {
+  padding-right: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000323}}
+input:hover, select:hover, textarea:hover {
+  background: #ffffff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000329}}
+select {
+  border-radius: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000333}}
+textarea {
+  padding: 10px;
+  color: #404040;
+  box-shadow: inset 1px 1px 1px 1px #ececec;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000339}}
+.form-item {
+  /* Wrapper for a form element (or group of form elements) and its label */
+  margin: 1.5em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000344}}
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+  /* Highlight the form elements that caused a form submission error */
+  border: 1px solid #c00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000348}}
+.form-item label {
+  /* The label for a form element */
+  display: block;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000354}}
+.form-item label.option {
+  /* The label for a radio button or checkbox */
+  display: inline;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000359}}
+.form-item .form-required {
+  /* The part of the label that indicates a required field */
+  color: #c00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000363}}
+.form-item .description {
+  /* The descriptive help text (separate from the label) */
+  font-size: 0.85em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000368}}
+.form-checkboxes .form-item, .form-radios .form-item {
+  /* Pack groups of checkboxes and radio buttons closer together */
+  margin: 0;
+  /* Drupal core uses "0.4em 0" */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000375}}
+.form-text:focus,
+.form-checkbox:focus,
+.form-radio:focus,
+.form-select:focus {
+  border: 1px solid #fc0;
+  background: #ffffdf;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000379}}
+textarea:focus {
+  border: 1px solid #fc0;
+  background: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000384}}
+.form-submit {
+  /* The submit button */
+  padding: 8px 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000386}}
+.form-submit:hover {
+  background: #ec6417;
+  border: 1px solid #ec6417;
+  color: #ffffff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\0000395}}
+.container-inline div,
+.container-inline label {
+  /* Inline labels and form divs */
+  display: inline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003100}}
+.tips {
+  /* Tips for Drupal's input formats */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003103}}
+a.button {
+  /* Buttons used by contrib modules like Media */
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+
+/*
+ * Password confirmation
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003112}}
+.password-parent,
+.confirm-parent {
+  margin: 0;
+}
+
+/*
+ * Search (search-block-form.tpl.php)
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003120}}
+#block-search-form {
+  /* Wrapper for the search form */
+}
+
+/* Advanced search form */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003132}}
+html.js fieldset.collapse-processed .fieldset-legend {
+  background: url("../images/uncollaped.png") no-repeat scroll 2px 50% transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003137}}
+html.js fieldset.collapse-processed.collapsed .fieldset-legend {
+  background: url("../images/collaped.png") no-repeat scroll 2px 50% transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003144}}
+fieldset#edit-advanced fieldset {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003148}}
+fieldset#edit-advanced fieldset .fieldset-legend {
+  background: none;
+  padding-left: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003154}}
+.advanced-search-submit {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003157}}
+.search-advanced .criterion {
+  float: none;
+  margin: 0 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003161}}
+#edit-keywords-fieldset .form-item:first-child {
+  margin-top: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003164}}
+#search-form {
+  margin: 10px 0;
+}
+
+/*
+ * Drupal's default login form block
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003178}}
+#user-login-form {
+  text-align: left;
+  /* LTR */
+  /*
+   * OpenID
+   *
+   * The default styling for the OpenID login link seems to assume Garland's
+   * styling of list items.
+   */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003188}}
+#user-login-form ul {
+  /* OpenID creates a new ul above the login form's links. */
+  margin-bottom: 0;
+  /* Position OpenID's ul next to the rest of the links. */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003193}}
+html.js #user-login-form li.openid-link,
+#user-login-form li.openid-link {
+  /* The "Log in using OpenID" link. */
+  margin-top: 1.5em;
+  margin-left: -20px;
+  /* LTR */
+  /* Un-do some of the padding on the ul list. */
+  padding-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003199}}
+#user-login-form li.user-link {
+  /* The "Cancel OpenID login" link. */
+  margin-top: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003204}}
+#user-login ul {
+  margin: 1.5em 0;
+}
+
+/* Fieldsets */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003209}}
+fieldset {
+  background: #ffffff;
+  border: 1px solid #d3d3d3;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 1px #dcdcdd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003216}}
+fieldset fieldset:last-child {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003221}}
+.form-type-radio .description,
+.form-type-checkbox .description {
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003224}}
+*:first-child + html fieldset {
+  background-color: transparent;
+  background-position: 0 10px;
+  padding: 0 10px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003230}}
+*:first-child + html fieldset fieldset > .description,
+*:first-child + html fieldset .fieldset-wrapper .description {
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003235}}
+*:first-child + html fieldset legend, *:first-child + html fieldset.collapsed legend {
+  display: inline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003239}}
+fieldset legend {
+  display: block;
+  font-weight: 400;
+  padding: 6px 8px;
+  background: #fbfbfb;
+  border: 1px solid #d3d3d3;
+  margin: 10px 0;
+  border-radius: 3px;
+  box-shadow: 0px 1px 1px #dcdcdd;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003250}}
+html.js fieldset.collapsed {
+  background: transparent;
+  padding-top: 5px;
+}
+
+/*
+ * Drupal core wrongly puts this in system.menus.css. Since we override that, add it back.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/forms\.scss}line{font-family:\00003269}}
+td.menu-disabled {
+  background: #ccc;
+}

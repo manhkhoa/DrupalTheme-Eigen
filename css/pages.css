@@ -1,0 +1,383 @@
+/**
+ * @file
+ * Page Styling
+ *
+ * Style the markup found in page.tpl.php. Also includes some styling of
+ * miscellaneous Drupal elements that appear in the $content variable, such as
+ * ul.links, .pager, .more-link, etc.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\0000311}}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000352}}
+.container:before, .container:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000356}}
+.container:after {
+  clear: both;
+}
+
+/* Page */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\0000320}}
+.page-wrapper {
+  background: url("../images/page-wrapper.png");
+}
+
+/*
+ * The skip-link link will be completely hidden until a user tabs to the link.
+ * See the element-focusable rule in system.base.css.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\0000328}}
+#skip-link {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\0000332}}
+#skip-link a,
+#skip-link a:visited {
+  display: block;
+  width: 100%;
+  padding: 2px 0 3px 0;
+  text-align: center;
+  background-color: #666;
+  color: #fff;
+}
+
+/*
+ * Header
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\0000348}}
+#name-and-slogan {
+  padding: 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\0000351}}
+#logo {
+  /* Wrapping link for logo */
+  margin: 0;
+  padding: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\0000355}}
+#logo img {
+  vertical-align: bottom;
+  background: none;
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\0000363}}
+#site-name {
+  /* The name of the website */
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\0000369}}
+#site-name a:link,
+#site-name a:visited {
+  color: #000;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\0000375}}
+#site-name a:hover,
+#site-name a:focus {
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\0000380}}
+#site-slogan {
+  /* The slogan (or tagline) of a website */
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Region help */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\0000386}}
+.region-help {
+  background-color: #fff;
+  border: 1px solid #cecece;
+  margin: 10px 0;
+}
+
+/* Region header-top */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\0000393}}
+#header-top-wrapper {
+  background: #313131;
+}
+
+/* Region header */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003100}}
+#header-wrapper {
+  background: #eeeeee;
+  border-top: 10px solid #313131;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003103}}
+#header-wrapper:before {
+  border-top: 5px solid #dfdfdf;
+  content: "";
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003110}}
+#header-wrapper ul li {
+  list-style: url("../images/black-item-list.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003114}}
+#header-wrapper ul.contextual-links li {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003120}}
+.region-header {
+  /* Wrapper for any blocks placed in the header region */
+}
+
+/* Region Feature */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003125}}
+#feature-wrapper {
+  background: url("../images/feature-wrapper.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003129}}
+.region-feature {
+  padding: 30px 0;
+}
+
+/* Region Top panel */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003134}}
+#top-panel-wrapper, #bottom-panel-wrapper {
+  background: #d8d8d8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003137}}
+#top-panel-wrapper ul li, #bottom-panel-wrapper ul li {
+  list-style: url("../images/black-item-list.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003141}}
+#top-panel-wrapper ul.contextual-links li, #bottom-panel-wrapper ul.contextual-links li {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003145}}
+.region-top-panel {
+  padding: 20px 0;
+}
+
+/* Both for Header and Feature */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003150}}
+.region-feature, .region-header-top, .region-footer {
+  color: #bbbbbb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003153}}
+.region-feature .block-inner .block-title, .region-header-top .block-inner .block-title, .region-footer .block-inner .block-title {
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003156}}
+.region-feature .block-inner a, .region-header-top .block-inner a, .region-footer .block-inner a {
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003160}}
+.region-feature .block-inner ul li, .region-header-top .block-inner ul li, .region-footer .block-inner ul li {
+  list-style: url("../images/white-item-list.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003164}}
+.region-feature .block-inner ul.contextual-links li, .region-header-top .block-inner ul.contextual-links li, .region-footer .block-inner ul.contextual-links li {
+  list-style: none;
+}
+
+/* REgion bottom panel */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003171}}
+.region-bottom-panel {
+  clear: both;
+}
+
+/* Footer and footer panel */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003175}}
+#footer-wrapper {
+  background: url("../images/footer-wrapper.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003179}}
+.region-footer {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003182}}
+.region-footer .block-inner {
+  color: #666666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003187}}
+.region-footer .block-inner a {
+  color: #999999;
+}
+
+/* Footer */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003193}}
+#footer-panel-wrapper {
+  border-bottom: 1px dashed #363637;
+  border-top: 5px solid #1e1d22;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003196}}
+#footer-panel-wrapper:before {
+  border-top: 1px dashed #363637;
+  content: "";
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003202}}
+.footer-panel {
+  font-size: 12px;
+  color: #bbbbbb;
+  padding-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003207}}
+.footer-panel .block-inner .block-title {
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003210}}
+.footer-panel .block-inner a {
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003213}}
+.footer-panel .block-inner ul li {
+  border-bottom: 1px dashed #363637;
+  list-style: none;
+  padding: 7px 0;
+}
+
+/* Main (container for everything else) */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003225}}
+#main #content {
+  padding: 15px;
+}
+
+/* Content */
+/* Region content Top */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003234}}
+.region-content-top .block-inner, .region-content-bottom .block-inner {
+  border-bottom: 1px dashed #404040;
+  padding: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003237}}
+.region-content-top .block-inner .block-title, .region-content-bottom .block-inner .block-title {
+  background: url("../images/border-bottom-image.png") repeat-x scroll left bottom transparent;
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003242}}
+.region-content-top .block-inner ul li, .region-content-bottom .block-inner ul li {
+  list-style: url("../images/black-item-list.png");
+}
+
+/* Region content Bottom */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003254}}
+div.messages {
+  /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
+  margin: 1.5em 0;
+  /* Drupal core uses "6px 0" margin */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003257}}
+div.messages ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003262}}
+#block-system-help {
+  background: url("../images/help_icon.png") no-repeat scroll 12px center;
+  color: #000;
+  min-height: 25px;
+  padding: 10px 10px 0px 60px;
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003270}}
+div.status {
+  /* Normal priority messages */
+  background: url("../images/msg_status.png") no-repeat 20px 50% #acf5ac;
+  border-color: #4e974e;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003279}}
+div.warning,
+tr.warning {
+  /* Medium priority messages */
+  /* border: 1px solid #f0c020; */
+  /* Drupal core uses: 1px solid #f0c020 */
+  background: url("../images/msg_warning.png") no-repeat 20px 50% #fff3c3;
+  border-color: #b2a46e;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003289}}
+div.error,
+tr.error {
+  /* High priority messages. See also the .error declaration below. */
+  background: url("../images/msg_error.png") no-repeat 20px 50% #ffbdba;
+  border-color: #922c27;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003297}}
+.error {
+  /* Errors that are separate from div.messages status messages. */
+  /* color: #e55; */
+  /* Drupal core uses a #e55 background */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003301}}
+.warning {
+  /* Warnings that are separate from div.messages status messages. */
+  /* color: #e09010; */
+  /* Drupal core uses a #e09010 background */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003305}}
+.tabs {
+  /* See also the tabs.css file. */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003308}}
+.more-help-link {
+  /* Link to more help */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003311}}
+.region-content {
+  /* Wrapper for the actual page content */
+}
+
+/*
+ * First sidebar (on left in LTR languages, on right in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-first
+ * (see the layout.css file.)
+ */
+/*
+ * Second sidebar (on right in LTR languages, on left in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-second
+ * (see the layout.css file.)
+ */
+/*
+ * Page bottom
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003337}}
+.region-bottom {
+  /* Wrapper for any blocks placed in the page bottom region */
+}
+
+/* Feed icons */
+/* Search results list. */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/pages\.scss}line{font-family:\00003360}}
+span.field-label {
+  /* The inline field label used by the Fences module */
+  padding: 0 1em 0 0;
+  /* LTR */
+}

@@ -1,0 +1,153 @@
+/**
+ * @file
+ * Comment Styling
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\000039}}
+.comment-wrapper {
+  /* Wrapper for the list of comments and its title */
+  margin: 1.5em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000312}}
+.comment-wrapper h2.title {
+  /* Heading for the list of comments */
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Georgia, sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000322}}
+.comment-wrapper h2.comment-form {
+  /* Heading for the comment form */
+  border-top: 1px dashed #404040;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000329}}
+.comment {
+  /* Wrapper for a single comment */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000331}}
+.comment.comment-preview {
+  /* Preview of the comment before submitting new or updated comment */
+  background-color: #ffffea;
+  /* Drupal core will use a #ffffea background. See #1110842 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000335}}
+.comment.new {
+  /* A new comment since the user last viewed the page. */
+  background-color: #E6FCB6;
+  padding: 1px 6px 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000340}}
+.comment.first {
+  /* The first comment in the list of comments */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000343}}
+.comment.last {
+  /* The last comment in the list of comments */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000346}}
+.comment.odd {
+  /* An odd-numbered comment in the list of comments */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000349}}
+.comment.even {
+  /* An even-numbered comment in the list of comments */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000352}}
+.comment.comment-by-anonymous {
+  /* A comment created by an anonymous user */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000355}}
+.comment.comment-by-node-author {
+  /* A comment created by the node's author */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000358}}
+.comment.comment-by-viewer {
+  /* A comment created by the current user */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000361}}
+.comment h3.comment-title {
+  /* Comment title */
+  font-family: Georgia, sans-serif;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000367}}
+.comment .new {
+  /* "New" marker for comments that are new for the current user */
+  color: #c00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000371}}
+.comment .user-picture {
+  /* The picture of the comment author */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000372}}
+.comment .user-picture img {
+  /* picture */
+  width: 65px;
+  height: 58px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000378}}
+.comment .comment-left {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000381}}
+.comment .comment-right {
+  margin-left: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000383}}
+.comment .comment-right .content .field-name-comment-body p {
+  margin: 0;
+  padding: 5px 0;
+  font-family: "Gentium Basic", sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000391}}
+.comment .submitted {
+  /* The "posted by" information */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000394}}
+.comment .permalink {
+  /* Comment's permalink wrapper */
+  text-transform: capitalize;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\0000399}}
+.comment .user-signature {
+  /* The user's signature */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\00003102}}
+.comment ul.links {
+  /* Comment links. See also the ul.links declaration in the pages.css. */
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\00003104}}
+.comment ul.links li a {
+  text-transform: capitalize;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\00003110}}
+.indented {
+  /* Nested comments are indented */
+  margin-left: 100px;
+  /* Drupal core uses a 25px left margin */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\00003114}}
+.comment-unpublished {
+  /* Unpublished comments */
+  /* background-color: #fff4f4; */
+  /* Drupal core uses a #fff4f4 background */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/comments\.scss}line{font-family:\00003117}}
+.comment-unpublished p.unpublished {
+  /* The word "Unpublished" displayed underneath the content. */
+  height: 0;
+  overflow: visible;
+  color: #d8d8d8;
+  font-size: 75px;
+  line-height: 1;
+  font-family: Impact, "Arial Narrow", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word;
+}

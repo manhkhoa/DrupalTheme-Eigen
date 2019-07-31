@@ -1,0 +1,108 @@
+/**
+ * @file
+ * Tabs Styling
+ *
+ * Adds styles for the primary and secondary tabs.
+ *
+ * Compare this with default CSS found in the system module's stylesheet (a copy
+ * of which is in drupal7-reference.css.)
+ */
+
+@import "base";
+
+
+// Some variables to make altering the styling easier.
+$tabs-container-bg: #fff;
+$tabs-border: #bbb;
+
+
+/*
+ * Basic positioning styles shared by primary and secondary tabs.
+ */
+/*
+ * Primary tabs
+ */
+
+ul.primary {
+  margin: 10px 0 0;
+  padding-bottom: 5px;
+  padding-left: 0;
+  white-space: inherit;
+  
+  li {
+  	background: #ffffff repeat scroll 0 0 transparent;
+    display: inline;
+    list-style: none outside none;
+	a{
+	  line-height: 19px; 
+	  padding: 8px 10px;
+    color: #404040;
+
+	}
+  }
+  li.active {
+    &:hover{
+	  background: none;
+	}
+  }
+  a:link,
+  a:visited {
+    letter-spacing: 1px;
+    text-align: center;	
+  }
+  a:hover,
+  a:focus {
+    color: #D3550E;
+    text-decoration: none;
+  }
+  a.active {
+    background: repeat scroll 0 0 #ffffff;
+    color: #D3550E;
+    text-decoration: none;
+    border-top: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+  }
+}
+
+/*
+ * Secondary tabs
+ */
+ul.secondary {
+  background: none repeat scroll 0 0 #ffffff;
+  margin-top: 0; /* Collapse bottom margin of ul.primary. */
+  padding-left: 15px;
+  border: 1px solid #d3d3d3;
+  box-shadow: 0px 1px 1px #dcdcdd;
+  li{
+    display: inline;
+    line-height: 3em;
+    list-style: none outside none;
+    margin-right: 14px;
+    font-size: 14px;
+    
+  
+  }
+  a{
+    color: #404040;
+
+  }
+  a:link,
+  a:visited {
+  }
+  a:hover,
+  a:focus {
+    color: #D3550E;
+    text-decoration: none;
+  }
+  a.active{
+    color: #404040;
+    border-bottom: 2px solid #2f2f2f;
+	&:hover{
+	  text-decoration: none;
+	}
+  }
+  a:active {
+	
+  }
+}

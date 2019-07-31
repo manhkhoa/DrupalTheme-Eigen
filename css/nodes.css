@@ -1,0 +1,147 @@
+/**
+ * @file
+ * Node Styling
+ *
+ * Style anything that isn't in the $content variable.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000311}}
+.node {
+  /* Node wrapper */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000313}}
+.preview .node {
+  /* Preview of the content before submitting new or updated content */
+  /* background-color: #ffffea; */
+  /* Drupal core uses a #ffffea background */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000317}}
+.node .node-title {
+  /* Node title */
+  margin: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000321}}
+.node .user-picture {
+  /* The picture of the node author */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000322}}
+.node .user-picture img {
+  width: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000327}}
+.node .submitted {
+  /* The "posted by" information */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000330}}
+.node .content {
+  /* Node's content wrapper */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000333}}
+.node ul.links {
+  /* Node links. See also the ul.links declaration in the pages.css. */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000340}}
+.node-promoted {
+  /* A node that has been promoted to the front page */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000343}}
+.node-sticky {
+  /* A sticky node (displayed before others in a list) */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000346}}
+.node-by-viewer {
+  /* A node created by the current user */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000349}}
+.node-teaser {
+  /* A node displayed as teaser */
+  margin-bottom: 20px;
+}
+
+/* Node full view */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000355}}
+.node-wrapper {
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #404040;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000358}}
+.node-wrapper .node-title {
+  margin: 0px;
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000361}}
+.node-wrapper .node-title a:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000365}}
+.node-wrapper .header-node {
+  margin-bottom: 20px;
+  background: url("../images/border-bottom-image.png") repeat-x scroll left bottom transparent;
+  padding-bottom: 10px;
+}
+
+/* Header blog node */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000373}}
+.blog-header-submitted {
+  font-size: 11px;
+  font-style: italic;
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000377}}
+.blog-header-submitted .username, .blog-header-submitted .comment-count a {
+  color: #313131;
+  text-transform: capitalize;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000380}}
+.blog-header-submitted .username:hover, .blog-header-submitted .comment-count a:hover {
+  color: #D3550E;
+  text-decoration: none;
+}
+
+/*
+ * All nodes are given a node-FOO class that describes the type of content that
+ * it is. If you create a new content type called "my-custom-type", it will
+ * receive a "node-my-custom-type" class.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000392}}
+.page-node {
+  /* Page content node */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000393}}
+.page-node #page-title {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\0000398}}
+.node-article {
+  /* Article content node */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\00003102}}
+.node-blog {
+  /* Blog content node */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\00003105}}
+.node-unpublished {
+  /* Unpublished nodes */
+  /* background-color: #fff4f4; */
+  /* Drupal core uses a #fff4f4 background */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/nodes\.scss}line{font-family:\00003108}}
+.node-unpublished p.unpublished {
+  /* The word "Unpublished" displayed underneath the content. */
+  height: 0;
+  overflow: visible;
+  color: #d8d8d8;
+  font-size: 75px;
+  line-height: 1;
+  font-family: Impact, "Arial Narrow", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word;
+}

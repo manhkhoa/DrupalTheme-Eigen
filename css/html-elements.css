@@ -1,0 +1,202 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\000033}}
+body {
+  line-height: 1.5em;
+  font-family: Georgia, sans-serif;
+  font-size: 14px;
+  color: #555555;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000310}}
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5em;
+  line-height: 1.3em;
+  font-family: Museo;
+  color: #313131;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000318}}
+h1 {
+  font-size: 2.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000322}}
+h2 {
+  font-size: 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000326}}
+h3 {
+  font-size: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000330}}
+h4 {
+  font-size: 1.167em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000335}}
+h5,
+h6 {
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000341}}
+h1 > a,
+h2 > a,
+h3 > a,
+h4 > a {
+  color: #313131;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000348}}
+h1 > a:hover,
+h2 > a:hover,
+h3 > a:hover,
+h4 > a:hover {
+  color: #d3550e;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000358}}
+h1.title,
+h2.node-title,
+h2.block-title,
+h2.title,
+h2.comment-form,
+h3.title {
+  /* Comment title */
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000362}}
+hr {
+  height: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000369}}
+p {
+  margin: 0 0 1.5em;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000374}}
+a {
+  color: #d3550e;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000377}}
+a:hover {
+  text-decoration: underline;
+}
+
+/* openid link */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000383}}
+#user-login-form li.openid-link a, #user-login li.openid-link a {
+  background: url("../images/black-item-list.png") 0 3px no-repeat;
+}
+
+/*action-links*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000391}}
+ul.action-links {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000393}}
+ul.action-links li {
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000395}}
+ul.action-links li a {
+  padding: 4px 0 4px 12px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\0000399}}
+ul.action-links li a:after, ul.action-links li a:before {
+  border-style: solid;
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\00003106}}
+ul.action-links li a:after {
+  border-width: 3px 0 0 11px;
+  left: -4px;
+  top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\00003111}}
+ul.action-links li a:before {
+  border-width: 11px 0 0 3px;
+  left: 0;
+  top: 6px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\00003125}}
+menu,
+ol,
+ul,
+.item-list ul {
+  padding: 0 0 0 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\00003131}}
+dl {
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\00003146}}
+dd {
+  margin: 0 0 1.5em 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\00003150}}
+dt {
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\00003155}}
+a img:hover {
+  background: #d3550e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\00003160}}
+img {
+  max-width: 100%;
+  background: #ffffff;
+  padding: 5px;
+  border: 1px solid #e3e3e3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\00003167}}
+fieldset {
+  color: #3c3a3a;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\00003184}}
+strong,
+dfn,
+caption,
+th {
+  font-weight: 700;
+}
+
+/* blockquote */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\00003189}}
+blockquote {
+  padding-left: 35px;
+  position: relative;
+  font-style: italic;
+  font-size: 18px;
+  color: #404040;
+  line-height: 1.1;
+  margin: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/html-elements\.scss}line{font-family:\00003198}}
+blockquote:after {
+  background: url("../images/blockquote-icon.png") no-repeat scroll top left transparent;
+  content: "";
+  height: 19px;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  width: 25px;
+}

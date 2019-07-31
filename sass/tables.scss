@@ -1,0 +1,182 @@
+/**
+ * @file
+ * Form Styling
+ */
+
+@import "base";
+
+table {
+  border-spacing: 0;
+  border-color: #eee;
+  font-size: inherit;
+  font: 100%;
+  margin: 10px 0 1.5em;
+  padding: 0;
+  width: 100%;
+  &.sticky-header {
+    z-index: 10;
+  }
+  caption {
+    font-size: 14px;
+    padding: 8px 0;
+  }
+}
+table,
+td,
+th {
+  vertical-align:middle;
+}
+caption,
+th,
+td {
+  text-align:left;
+}
+thead th {
+  background-color: #333;
+  border-width: 1px 1px 0;
+  border-style: solid;
+  border-color: #424242;
+  color: #ddd;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px 8px;
+}
+th {
+ a {
+   &.active {
+    color: #eee;
+   }
+   &:hover {
+    color: #eee;
+    text-decoration: underline;
+   }
+  }
+  &.active img {
+    background: none;
+    box-shadow: none;
+    margin-left: 8px;
+    padding: 0;
+    border: none;
+	
+	&:hover {
+      opacity: 1;
+    }
+  }
+  
+}
+td,
+td.block {
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: #e3e2e2;
+  padding: 10px 10px 12px;
+  position: static;
+}
+
+td {
+  &:first-child,
+  &.block:first-child {
+    border-left: 1px solid #e3e2e2;
+  }
+}
+
+tr {
+  &.even,
+  &.odd {
+    border: none;
+  }
+  &.odd {
+    td.active {
+      background-color: #eee;
+    }
+  }
+  &.even td.active {
+    background-color: #f7f7f7;
+  } 
+  &.even:hover,
+  &.odd:hover {
+    background-color: #fef3ec;
+  }
+  &.odd,
+  &.info {
+    background-color: #ffffff;
+  }
+  &.even {
+    background-color: #f8f8f8;
+  }
+  &.drag {
+    background-color: #fffff0;
+  }
+  &.drag-previous {
+    background-color: #ffd;
+  }
+}
+
+td {
+  &.region,
+  &.module,
+  &.container td.category {
+    background-color: #eee;
+    border-bottom: 1px solid #e3e2e2;
+    border-top: 20px solid #e3e2e2;
+    color: #222;
+    font-weight: 700;
+  }
+ }
+tr:first-child td {
+  &.region,
+  &.module,
+  &.container {
+    border-top-width: 0;
+  }
+}
+
+
+tr td:last-child {
+  border-right: 1px solid #e3e2e2;
+}
+
+
+/* Forum */
+#forum td.container .icon {
+  background: url(../images/main-topic-icon.png) no-repeat left top transparent;
+  margin-right: 5px;
+  float: left;
+  height: 18px;
+  width: 20px;
+}
+#forum {  
+  th {
+    border-bottom: 1px solid #222;
+    white-space: nowrap; 
+  }
+  tr td.forum {
+  background-image: url(images/forum-default.png) no-repeat 0 50% transparent;
+  background-position: 5px 5px;
+  padding-left: 30px;
+  padding-left: 10px;
+    .name {
+      padding-left: 5px;
+    }
+  }
+  div.indent {
+    margin-left: 7px;
+  }
+  td.forum  .indent .icon,
+  td.forum  .icon {}
+  td.container .name a {
+    font-size: 1.167em;
+  }
+}
+
+#forum td.forum  .indent {
+  .name a {
+  }
+  .description {}
+  .forum-status-new {}
+  .forum-status-new {}
+}
+#forum th.active a.active img {
+  padding: 0;
+  margin-left: 10px;
+}

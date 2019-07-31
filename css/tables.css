@@ -1,0 +1,179 @@
+/**
+ * @file
+ * Form Styling
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\000038}}
+table {
+  border-spacing: 0;
+  border-color: #eee;
+  font-size: inherit;
+  font: 100%;
+  margin: 10px 0 1.5em;
+  padding: 0;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000316}}
+table.sticky-header {
+  z-index: 10;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000319}}
+table caption {
+  font-size: 14px;
+  padding: 8px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000326}}
+table,
+td,
+th {
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000331}}
+caption,
+th,
+td {
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000334}}
+thead th {
+  background-color: #333;
+  border-width: 1px 1px 0;
+  border-style: solid;
+  border-color: #424242;
+  color: #ddd;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000346}}
+th a.active {
+  color: #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000349}}
+th a:hover {
+  color: #eee;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000354}}
+th.active img {
+  background: none;
+  box-shadow: none;
+  margin-left: 8px;
+  padding: 0;
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000361}}
+th.active img:hover {
+  opacity: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000368}}
+td,
+td.block {
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: #e3e2e2;
+  padding: 10px 10px 12px;
+  position: static;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000378}}
+td:first-child, td.block:first-child {
+  border-left: 1px solid #e3e2e2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000385}}
+tr.even, tr.odd {
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000389}}
+tr.odd td.active {
+  background-color: #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000393}}
+tr.even td.active {
+  background-color: #f7f7f7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\0000397}}
+tr.even:hover, tr.odd:hover {
+  background-color: #fef3ec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003101}}
+tr.odd, tr.info {
+  background-color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003104}}
+tr.even {
+  background-color: #f8f8f8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003107}}
+tr.drag {
+  background-color: #fffff0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003110}}
+tr.drag-previous {
+  background-color: #ffd;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003118}}
+td.region, td.module, td.container td.category {
+  background-color: #eee;
+  border-bottom: 1px solid #e3e2e2;
+  border-top: 20px solid #e3e2e2;
+  color: #222;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003129}}
+tr:first-child td.region, tr:first-child td.module, tr:first-child td.container {
+  border-top-width: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003135}}
+tr td:last-child {
+  border-right: 1px solid #e3e2e2;
+}
+
+/* Forum */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003141}}
+#forum td.container .icon {
+  background: url(../images/main-topic-icon.png) no-repeat left top transparent;
+  margin-right: 5px;
+  float: left;
+  height: 18px;
+  width: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003149}}
+#forum th {
+  border-bottom: 1px solid #222;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003153}}
+#forum tr td.forum {
+  background-image: url(images/forum-default.png) no-repeat 0 50% transparent;
+  background-position: 5px 5px;
+  padding-left: 30px;
+  padding-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003158}}
+#forum tr td.forum .name {
+  padding-left: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003162}}
+#forum div.indent {
+  margin-left: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003167}}
+#forum td.container .name a {
+  font-size: 1.167em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tables\.scss}line{font-family:\00003179}}
+#forum th.active a.active img {
+  padding: 0;
+  margin-left: 10px;
+}

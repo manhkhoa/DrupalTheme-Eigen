@@ -1,0 +1,99 @@
+/**
+ * @file
+ * Tabs Styling
+ *
+ * Adds styles for the primary and secondary tabs.
+ *
+ * Compare this with default CSS found in the system module's stylesheet (a copy
+ * of which is in drupal7-reference.css.)
+ */
+/*
+ * Basic positioning styles shared by primary and secondary tabs.
+ */
+/*
+ * Primary tabs
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tabs\.scss}line{font-family:\0000326}}
+ul.primary {
+  margin: 10px 0 0;
+  padding-bottom: 5px;
+  padding-left: 0;
+  white-space: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tabs\.scss}line{font-family:\0000332}}
+ul.primary li {
+  background: #ffffff repeat scroll 0 0 transparent;
+  display: inline;
+  list-style: none outside none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tabs\.scss}line{font-family:\0000336}}
+ul.primary li a {
+  line-height: 19px;
+  padding: 8px 10px;
+  color: #404040;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tabs\.scss}line{font-family:\0000344}}
+ul.primary li.active:hover {
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tabs\.scss}line{font-family:\0000349}}
+ul.primary a:link,
+ul.primary a:visited {
+  letter-spacing: 1px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tabs\.scss}line{font-family:\0000354}}
+ul.primary a:hover,
+ul.primary a:focus {
+  color: #D3550E;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tabs\.scss}line{font-family:\0000358}}
+ul.primary a.active {
+  background: repeat scroll 0 0 #ffffff;
+  color: #D3550E;
+  text-decoration: none;
+  border-top: 1px solid #d3d3d3;
+  border-left: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+}
+
+/*
+ * Secondary tabs
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tabs\.scss}line{font-family:\0000371}}
+ul.secondary {
+  background: none repeat scroll 0 0 #ffffff;
+  margin-top: 0;
+  /* Collapse bottom margin of ul.primary. */
+  padding-left: 15px;
+  border: 1px solid #d3d3d3;
+  box-shadow: 0px 1px 1px #dcdcdd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tabs\.scss}line{font-family:\0000377}}
+ul.secondary li {
+  display: inline;
+  line-height: 3em;
+  list-style: none outside none;
+  margin-right: 14px;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tabs\.scss}line{font-family:\0000386}}
+ul.secondary a {
+  color: #404040;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tabs\.scss}line{font-family:\0000394}}
+ul.secondary a:hover,
+ul.secondary a:focus {
+  color: #D3550E;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tabs\.scss}line{font-family:\0000398}}
+ul.secondary a.active {
+  color: #404040;
+  border-bottom: 2px solid #2f2f2f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/tabs\.scss}line{font-family:\00003101}}
+ul.secondary a.active:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,22 @@
+/**
+ * @file
+ * Wireframes Styling
+ *
+ * Add wireframes to the basic layout elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/wireframes\.scss}line{font-family:\0000324}}
+.with-wireframes #header,
+.with-wireframes #main,
+.with-wireframes #content,
+.with-wireframes #navigation,
+.with-wireframes .region-sidebar-first,
+.with-wireframes .region-sidebar-second,
+.with-wireframes #footer,
+.with-wireframes .region-bottom,
+.with-wireframes .region-bottom-panel,
+.with-wireframes .footer-panel,
+.with-wireframes .region-top-panel,
+.with-wireframes .region-feature,
+.with-wireframes .region-header-top {
+  outline: 1px solid #ccc;
+}

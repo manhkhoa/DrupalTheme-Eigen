@@ -1,0 +1,271 @@
+/**
+ * @file
+ * Form Styling
+ */
+
+@import "base";
+
+form {}
+input, select, textarea {
+  background: #f7f7f7;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-right: 5px;
+ &.form-text{
+   box-shadow: inset 1px 1px 1px 1px #ececec;
+   padding: 5px;
+   height: 22px;
+ }
+ &.form-radio, &.form-checkbox{
+  padding-right: 5px;
+ }
+
+ &:hover{
+  background: #ffffff;
+ }
+
+}
+
+select{
+   border-radius: 0px;
+}
+
+textarea{
+  padding: 10px;
+  color: #404040;
+  box-shadow: inset 1px 1px 1px 1px #ececec;
+}
+  
+.form-item { /* Wrapper for a form element (or group of form elements) and its label */
+  margin: 1.5em 0;
+
+  input.error,
+  textarea.error,
+  select.error { /* Highlight the form elements that caused a form submission error */
+    border: 1px solid #c00;
+  }
+
+  label { /* The label for a form element */
+    display: block;
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+
+  label.option { /* The label for a radio button or checkbox */
+    display: inline;
+    font-weight: normal;
+  }
+
+  .form-required { /* The part of the label that indicates a required field */
+    color: #c00;
+  }
+
+  .description { /* The descriptive help text (separate from the label) */
+    font-size: 0.85em;
+  }
+
+  .form-checkboxes & ,
+  .form-radios & { /* Pack groups of checkboxes and radio buttons closer together */
+    margin: 0; /* Drupal core uses "0.4em 0" */
+  }
+}
+.form-text:focus,
+.form-checkbox:focus,
+.form-radio:focus,
+.form-select:focus {
+  border: 1px solid #fc0;
+  background: #ffffdf;
+}
+textarea:focus {
+  border: 1px solid #fc0;
+  background: #fff;
+}
+
+.form-submit { /* The submit button */
+  padding: 8px 22px;
+  &:hover{
+    background: #ec6417;
+    border: 1px solid #ec6417;
+    color: #ffffff;
+  }
+}
+
+.container-inline {
+  div,
+  label { /* Inline labels and form divs */
+    display: inline;
+  }
+}
+
+.tips { /* Tips for Drupal's input formats */
+}
+
+a.button { /* Buttons used by contrib modules like Media */
+  @include appearance(button);
+}
+
+/*
+ * Password confirmation
+ */
+
+.password-parent,
+.confirm-parent {
+  margin: 0;
+}
+
+/*
+ * Search (search-block-form.tpl.php)
+ */
+
+#block-search-form { /* Wrapper for the search form */
+  label {}
+  input {}
+  .form-submit {}
+  .form-text {}
+}
+
+
+/* Advanced search form */
+
+html.js fieldset{
+  &.collapse-processed{
+    .fieldset-legend{
+      background: url("../images/uncollaped.png") no-repeat scroll 2px 50% transparent;
+    }
+  }
+  &.collapse-processed.collapsed{
+    .fieldset-legend{
+      background: url("../images/collaped.png") no-repeat scroll 2px 50% transparent;
+    }
+  }
+}
+
+fieldset {
+    &#edit-advanced fieldset {
+    float: left;
+    margin: 0 10px 10px 0;
+	
+   .fieldset-legend {
+     background: none;
+     padding-left: 1em;
+   }
+  }
+}
+.advanced-search-submit {
+  clear: both;
+}
+.search-advanced .criterion {
+  float: none;
+  margin: 0 5px;
+}
+#edit-keywords-fieldset .form-item:first-child {
+  margin-top: 5px;
+}
+#search-form {
+  margin: 10px 0;
+  .container-inline {}
+  label {}
+  input {}
+  .form-item {}
+  .form-submit {}
+}
+#search-form > div {}
+
+/*
+ * Drupal's default login form block
+ */
+
+#user-login-form {
+  text-align: left; /* LTR */
+
+  /*
+   * OpenID
+   *
+   * The default styling for the OpenID login link seems to assume Garland's
+   * styling of list items.
+   */
+
+  ul { /* OpenID creates a new ul above the login form's links. */
+    margin-bottom: 0; /* Position OpenID's ul next to the rest of the links. */
+  }
+
+  html.js & li.openid-link,
+  li.openid-link { /* The "Log in using OpenID" link. */
+    margin-top: 1.5em;
+    margin-left: -20px; /* LTR */ /* Un-do some of the padding on the ul list. */
+    padding-bottom: 20px;
+  }
+
+  li.user-link { /* The "Cancel OpenID login" link. */
+    margin-top: 1.5em;
+  }
+}
+
+#user-login ul {
+  margin: 1.5em 0;
+}
+
+/* Fieldsets */
+fieldset {
+  background: #ffffff;
+  border: 1px solid #d3d3d3;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 1px #dcdcdd;
+  fieldset:last-child {
+    margin-bottom: 0;
+  }
+}
+.form-type-radio .description,
+.form-type-checkbox .description {
+  margin-left: 0;
+}
+*:first-child+html fieldset {
+  background-color: transparent;
+  background-position: 0 10px;
+  padding: 0 10px 10px;
+  
+  fieldset > .description,
+  .fieldset-wrapper .description {
+    padding-top: 10px;
+  }
+  
+  legend,
+  &.collapsed legend {
+    display: inline;
+  }
+}
+fieldset legend {
+  display: block;
+  font-weight: 400;
+  padding: 6px 8px;
+  background: #fbfbfb;
+  border: 1px solid #d3d3d3;
+  margin: 10px 0;
+  border-radius: 3px;
+  box-shadow: 0px 1px 1px #dcdcdd;
+}
+
+html.js fieldset.collapsed {
+  background: transparent;
+  padding-top: 5px;
+}
+
+@if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
+  .lt-ie8 tr.even,
+  .lt-ie8 tr.odd {
+    th,
+    td {
+      border-bottom: 1px solid #ccc; /* IE doesn't display borders on table rows */
+    }
+  }
+}
+
+/*
+ * Drupal core wrongly puts this in system.menus.css. Since we override that, add it back.
+ */
+
+td.menu-disabled {
+  background: #ccc;
+}

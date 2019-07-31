@@ -1,0 +1,65 @@
+/* Poll */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/modules\.scss}line{font-family:\000033}}
+.poll .title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/modules\.scss}line{font-family:\000037}}
+.poll .bar {
+  background-color: #fff;
+  border: 1px solid #464646;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/modules\.scss}line{font-family:\0000311}}
+.poll .bar .foreground {
+  background-color: #D3550E;
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/modules\.scss}line{font-family:\0000317}}
+.poll text,
+.poll .percent {
+  color: #4c4b4b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/modules\.scss}line{font-family:\0000320}}
+.poll .total {
+  color: #000;
+  font-weight: 400;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/modules\.scss}line{font-family:\0000325}}
+.book-block-menu ul.menu {
+  margin-bottom: 10px;
+}
+
+/* Overlay */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/modules\.scss}line{font-family:\0000331}}
+.overlay #header_top-wrapper, .overlay #header-wrapper, .overlay #menu-bar-wrapper, .overlay .page-title-wrapper,
+.overlay #featured-wrapper, .overlay #sidebar-first, .overlay #top-panel-wrapper,
+.overlay #footer-wrapper, .overlay #page-title, .overlay#bottom-panels-wrapper, .overlay#page-footer {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/modules\.scss}line{font-family:\0000334}}
+.overlay .container {
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/modules\.scss}line{font-family:\0000337}}
+.overlay #content-wrapper {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/modules\.scss}line{font-family:\0000340}}
+.overlay #columns {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/modules\.scss}line{font-family:\0000343}}
+.overlay #page {
+  background-color: #fff;
+}
+
+/* Aggregator */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/gp\/theme\/theming\/sites\/all\/themes\/eigen\/sass\/modules\.scss}line{font-family:\0000347}}
+#aggregator .feed-item-title {
+  font-size: 1.8em;
+}

@@ -1,0 +1,49 @@
+/* Poll */
+.poll {
+  .title{
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .bar {
+    background-color: #fff;
+    border: 1px solid #464646;
+   
+    .foreground {
+      background-color: #D3550E;
+      border: none;
+    }
+  }
+  text,
+ .percent {
+   color: #4c4b4b;
+ }
+ .total {
+  color: #000;
+  font-weight: 400;
+ }
+}
+.book-block-menu ul.menu {
+  margin-bottom: 10px;
+}
+/* Overlay */
+.overlay #header_top-wrapper, .overlay #header-wrapper,.overlay #menu-bar-wrapper, .overlay .page-title-wrapper,
+.overlay #featured-wrapper, .overlay #sidebar-first, .overlay #top-panel-wrapper,
+.overlay #footer-wrapper,.overlay #page-title, .overlay#bottom-panels-wrapper, .overlay#page-footer {
+  display: none;
+}
+.overlay .container {
+  max-width: 100%;
+}
+.overlay #content-wrapper {
+  margin-bottom: 0;
+}
+.overlay #columns {
+  margin-top: 0;
+}
+.overlay #page {
+  background-color: #fff;
+}
+/* Aggregator */
+#aggregator .feed-item-title {
+  font-size: 1.8em;
+}

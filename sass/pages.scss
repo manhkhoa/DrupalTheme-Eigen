@@ -1,0 +1,362 @@
+/**
+ * @file
+ * Page Styling
+ *
+ * Style the markup found in page.tpl.php. Also includes some styling of
+ * miscellaneous Drupal elements that appear in the $content variable, such as
+ * ul.links, .pager, .more-link, etc.
+ */
+
+@import "base";
+.container {
+  max-width: $container;
+  margin: 0 auto;
+  @include zen-grid-container;
+}
+
+
+/* Page */
+h1.page-title{}
+.page-wrapper {
+  background: url('../images/page-wrapper.png');
+}
+/*
+ * The skip-link link will be completely hidden until a user tabs to the link.
+ * See the element-focusable rule in system.base.css.
+ */
+
+#skip-link {
+  margin: 0;
+
+  a,
+  a:visited {
+    display: block;
+    width: 100%;
+    padding: 2px 0 3px 0;
+    text-align: center;
+    background-color: #666;
+    color: #fff;
+  }
+}
+
+/*
+ * Header
+ */
+
+#header {
+}
+#name-and-slogan {
+  padding: 0 10px;
+}
+#logo { /* Wrapping link for logo */
+  margin: 0;
+  padding: 0 10px;
+
+  img {
+    vertical-align: bottom;
+	 background: none;
+  border: none;
+  }
+}
+
+
+#site-name { /* The name of the website */
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.5em;
+
+  a:link,
+  a:visited {
+    color: #000;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+}
+
+#site-slogan { /* The slogan (or tagline) of a website */
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Region help */
+.region-help {
+  background-color: #fff;
+  border: 1px solid #cecece;
+  margin: 10px 0;
+}
+
+/* Region header-top */
+#header-top-wrapper{
+  background: #313131;
+}
+.region-header-top{
+
+}
+/* Region header */
+#header-wrapper{
+  background: #eeeeee;
+  border-top: 10px solid #313131;
+  &:before{
+    border-top: 5px solid #dfdfdf;
+    content: "";
+    display: block;
+  }
+
+  ul{
+    li{
+      list-style: url('../images/black-item-list.png');
+    }
+  }
+  ul.contextual-links li{
+    list-style: none;
+  }
+}
+
+
+.region-header { /* Wrapper for any blocks placed in the header region */
+ 
+}
+
+/* Region Feature */
+#feature-wrapper{
+  background: url('../images/feature-wrapper.png');
+}
+
+.region-feature {
+  padding: 30px 0;
+}
+
+/* Region Top panel */
+#top-panel-wrapper, #bottom-panel-wrapper{
+  background: #d8d8d8;
+  ul{
+    li{
+      list-style: url('../images/black-item-list.png');
+    }
+  }
+  ul.contextual-links li{
+    list-style: none;
+  }
+}
+.region-top-panel{
+  padding: 20px 0;
+}
+
+/* Both for Header and Feature */
+.region-feature, .region-header-top, .region-footer{
+  color: #bbbbbb;
+  .block-inner{
+    .block-title{
+      color: #ffffff;
+    }
+    a{
+      color: #ffffff;
+    }
+    ul{
+      li{
+        list-style: url('../images/white-item-list.png');
+      }
+    }
+    ul.contextual-links li{
+      list-style: none;
+    }
+  }
+
+}
+ /* REgion bottom panel */
+.region-bottom-panel {
+  clear: both;
+}
+/* Footer and footer panel */
+#footer-wrapper {
+  background: url('../images/footer-wrapper.png');
+}
+#footer {}
+.region-footer{
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+   .block-inner {
+    
+    color: #666666;
+
+   
+    a{
+      color: #999999;
+    }
+  }
+}
+/* Footer */
+#footer-panel-wrapper{
+  border-bottom: 1px dashed #363637;
+  border-top: 5px solid #1e1d22;
+  &:before{
+    border-top: 1px dashed #363637;
+    content: "";
+    display: block;
+  }
+}
+.footer-panel{
+  font-size: 12px;
+  color: #bbbbbb;
+  padding-top: 20px;
+  .block-inner{
+    .block-title{
+      color: #ffffff;
+    }
+    a{
+      color: #ffffff;
+    }
+    ul li{
+    border-bottom: 1px dashed #363637;
+    list-style: none;
+    padding: 7px 0;
+    }
+    
+  }
+  
+}
+
+/* Main (container for everything else) */
+#main {
+  #content{
+    padding: 15px;
+  }
+}
+
+		/* Content */
+
+/* Region content Top */
+.region-content-top, .region-content-bottom {
+  .block-inner {
+    border-bottom: 1px dashed #404040;
+    padding: 0px;
+    .block-title{
+      background: url("../images/border-bottom-image.png") repeat-x scroll left bottom transparent;
+      padding-bottom: 10px;
+    }
+    ul{
+      li{
+        list-style: url('../images/black-item-list.png');
+      }
+    }
+  }
+}
+
+/* Region content Bottom */
+.region-content-bottom {}
+
+#content {
+}
+div.messages { /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
+  margin: 1.5em 0; /* Drupal core uses "6px 0" margin */
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+#block-system-help {
+  background: url("../images/help_icon.png") no-repeat scroll 12px center;
+  color: #000;
+  min-height: 25px;
+  padding: 10px 10px 0px 60px;
+  margin-bottom:10px;
+}
+
+div.status { /* Normal priority messages */
+   background: url("../images/msg_status.png") no-repeat 20px 50% #acf5ac;
+  border-color: #4e974e;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+div.warning,
+tr.warning { /* Medium priority messages */
+  /* border: 1px solid #f0c020; */ /* Drupal core uses: 1px solid #f0c020 */
+  background: url("../images/msg_warning.png") no-repeat 20px 50% #fff3c3;
+  border-color: #b2a46e;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+div.error,
+tr.error { /* High priority messages. See also the .error declaration below. */
+  background: url("../images/msg_error.png") no-repeat 20px 50% #ffbdba;
+  border-color: #922c27;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.error { /* Errors that are separate from div.messages status messages. */
+  /* color: #e55; */ /* Drupal core uses a #e55 background */
+}
+
+.warning { /* Warnings that are separate from div.messages status messages. */
+  /* color: #e09010; */ /* Drupal core uses a #e09010 background */
+}
+
+.tabs { /* See also the tabs.css file. */
+}
+
+.more-help-link { /* Link to more help */
+}
+
+.region-content { /* Wrapper for the actual page content */
+}
+/*
+ * First sidebar (on left in LTR languages, on right in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-first
+ * (see the layout.css file.)
+ */
+ 
+.region-sidebar-first {
+}
+
+/*
+ * Second sidebar (on right in LTR languages, on left in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-second
+ * (see the layout.css file.)
+ */
+
+.region-sidebar-second {
+}
+
+/*
+ * Page bottom
+ */
+
+.region-bottom { /* Wrapper for any blocks placed in the page bottom region */
+}
+
+/* Feed icons */
+#feed-icons {
+  .feed-icon {
+    img {}
+  }
+  a.feed-icon {}
+}
+
+
+/* Search results list. */
+.search-results {
+  .search-result {}
+  .title {}
+  .search-snippet-info {}
+  p {}
+  .search-snippet {}
+  .search-info {
+  }
+}
+
+span.field-label { /* The inline field label used by the Fences module */
+  padding: 0 1em 0 0; /* LTR */
+}
